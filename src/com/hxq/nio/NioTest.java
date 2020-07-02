@@ -48,10 +48,11 @@ public class NioTest {
     /**
      * 非直接缓存拷贝
      *987
+     * 6598
      */
     @Test
     public void nioCopyDemo(){
-        File file;
+        File file=null;
         FileInputStream fI=null;
         FileOutputStream fO=null;
         FileChannel fIChannel=null;
