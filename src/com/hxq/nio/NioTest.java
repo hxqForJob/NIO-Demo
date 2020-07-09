@@ -17,7 +17,7 @@ public class NioTest {
 
     @Test
     public void bufferDemo(){
-        String userName="The world is beautiful";
+        String userName="THAT world is beautiful";
         ByteBuffer  byteBuffer=ByteBuffer.allocate(1024);
         System.out.println("------------allocate-----------------");
         System.out.println("capacity:"+byteBuffer.capacity());
